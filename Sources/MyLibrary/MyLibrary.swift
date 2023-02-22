@@ -3,4 +3,8 @@ public struct MyLibrary {
 
     public init() {
     }
+    
+    public func hi() ->String{
+        return "wenxi"
+    }
 }
