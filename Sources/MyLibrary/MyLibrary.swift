@@ -1,3 +1,4 @@
+import c2sp
 public struct MyLibrary {
     public private(set) var text = "Hello, World!"
 
@@ -5,6 +6,6 @@ public struct MyLibrary {
     }
     
     public func hi() ->String{
-        return "wenxi"
+        return SysInfo.getMomory()
     }
 }
